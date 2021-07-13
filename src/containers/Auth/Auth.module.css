@@ -1,0 +1,27 @@
+.Auth {
+  margin: 20px auto;
+  width: 450px;
+  text-align: center;
+  background-color: #fa8c16;
+  padding: 10px;
+  box-sizing: border-box;
+  color: teal;
+  z-index: 300;
+}
+
+.Form {
+  background-color: #ffd666;
+  color: teal;
+  z-index: 300;
+}
+.Button {
+  margin-bottom: 10px;
+  background: transparent;
+  background-color: #722ed1;
+  z-index: 200;
+}
+.Button:focus {
+  background: transparent;
+
+  background-color: #874d00;
+}

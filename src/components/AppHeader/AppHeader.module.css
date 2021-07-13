@@ -1,0 +1,15 @@
+.Content {
+    background-color: #d48806;
+    border: 2px solid #fa8c16;
+    width: 450px;
+    text-align: center;
+    color: #fff1f0;
+    max-width: 450px;
+    z-index: 200;
+   
+}
+ .ContentH1 {
+     margin-bottom: 1.5rem;
+     margin-top: 1.5rem;
+     color: #ffd666;
+ }

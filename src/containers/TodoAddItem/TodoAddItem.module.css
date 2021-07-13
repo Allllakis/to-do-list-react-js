@@ -1,0 +1,32 @@
+.AddItem {
+    background-color: #ffd666;
+    border: 1px solid #fa8c16;
+    width: 450px;
+    z-index: 200;
+ 
+  
+    
+}
+
+.OnInput {
+    border-radius: 5px;
+    outline-color: #fa8c16;
+    background-color: #ffd666;
+    width: 370px;
+    height: 2.5rem;
+    margin-right: 5px;
+    margin-left: 3px;
+  
+    
+}
+
+.Button {
+    background-color:#fa8c16;
+    color: #ffd666;
+}
+
+.Button :disabled {
+  background-color: #fa8c16;
+  cursor: not-allowed;
+  color:#254000;
+}

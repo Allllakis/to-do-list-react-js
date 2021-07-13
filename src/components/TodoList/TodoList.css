@@ -1,0 +1,21 @@
+ .List { 
+     width: 450px;
+    z-index: 200;
+   
+    /* padding-left:10px; */  
+ } 
+
+.Todolist {
+    margin-block:inherit;
+    padding-inline-start:inherit;
+    
+   
+}
+
+.TodolistHide {
+    overflow: hidden;
+    height: 0px;
+    margin: 0px;
+}
+
+

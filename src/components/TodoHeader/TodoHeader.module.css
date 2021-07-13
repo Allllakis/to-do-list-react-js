@@ -1,0 +1,47 @@
+.Content {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffd666;
+    border: 2px solid #fa8c16;
+    text-align: center;
+    align-items: center;
+    z-index: 200;
+}
+
+.Box1 {
+    flex-grow: 1;
+    text-align: center;
+    width: 100px;
+    border-right: 2px solid #ffd666;
+   
+}
+
+.Box2 {
+    flex-grow: 4;
+    text-align: center;
+    border-right: none;
+   
+    
+    
+}
+
+.Box3 {
+    flex-grow: 1;
+    width: 100px;
+    text-align: center;
+    border-left: 2px solid #ffd666;
+    color:#ffd666;
+    
+}
+
+.h1 {
+ margin: 0;
+ color: #874d00;
+ 
+}
+
+.open {
+    margin: 0;
+    color: #874d00;
+    cursor: pointer;
+}

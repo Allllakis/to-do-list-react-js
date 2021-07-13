@@ -1,0 +1,8 @@
+.Content {
+    margin-top: 72px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 300;
+    overflow-y: auto;
+}

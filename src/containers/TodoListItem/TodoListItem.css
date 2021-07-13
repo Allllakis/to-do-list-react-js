@@ -1,0 +1,40 @@
+.ListItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffd666;
+  border: 2px solid #fa8c16;
+  list-style-type: none;
+  padding-left: 10px;
+  min-height: 2.5rem;
+  min-height: 30px;
+  
+ 
+}
+
+.Done {
+  text-decoration: line-through;
+}
+
+.Important {
+  font-weight: bold;
+  color: brown;
+}
+.SpanStyle  {
+  word-break: break-word;
+  width: 335px;
+ 
+}
+.Button {
+  margin-right: 2px;
+  font-weight: bold;
+  color: #f5222d;
+  background-color: #fa8c16;
+}
+.Button2 {
+  margin-right: 2px;
+  font-weight: bold;
+  color: #fff1f0;
+  background-color: #f5222d;
+}
