@@ -1,32 +1,41 @@
 .AddItem {
-    background-color: #ffd666;
-    border: 1px solid #fa8c16;
-    width: 450px;
-    z-index: 200;
- 
-  
-    
+  background-color: #99c9ff;
+  border: 1px solid #dfd6be;
+  width: 100%;
+  z-index: 200;
 }
 
 .OnInput {
-    border-radius: 5px;
-    outline-color: #fa8c16;
-    background-color: #ffd666;
-    width: 370px;
-    height: 2.5rem;
-    margin-right: 5px;
-    margin-left: 3px;
-  
-    
+  border-radius: 5px;
+  outline-color: #2b2627;
+  background-color: #2b2627;
+  color: #ffd666;
+  width: 37rem;
+  height: 2.5rem;
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+  box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5),
+    1px 1px 5px rgba(255, 255, 255, 1);
+}
+
+.OnInput:focus {
+  outline: none;
+  background-color: #525051;
+  border: 3px solid #dfd6be;
+  transition: all 0.5s ease-out;
 }
 
 .Button {
-    background-color:#fa8c16;
-    color: #ffd666;
+  margin: 1rem;
+  background: #fa1662;
+  color: #dfd6be;
+  border-color: #fa1662;
+  transition: all 0.5s ease-out;
 }
 
-.Button :disabled {
-  background-color: #fa8c16;
+.Button:disabled {
+  border-color: #2b2627;
+  background: #2b2627;
   cursor: not-allowed;
-  color:#254000;
+  color: #fa1662;
 }

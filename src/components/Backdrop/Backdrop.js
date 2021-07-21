@@ -1,5 +1,5 @@
 import React from 'react';
-import img from "../Img/ImgOrganizer.png"
+import img from "../Img/pencil.jpg"
 
 import classes from "./Backdrop.module.css"
 

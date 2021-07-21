@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
 .Content {
-    background-color: #d48806;
-    border: 2px solid #fa8c16;
+    font-family: 'Acme', sans-serif;
+    background-color: #2b2627;
+    border: 12px solid #99c9ff;
     width: 450px;
     text-align: center;
-    color: #fff1f0;
-    max-width: 450px;
+    color: #dfd6be;
+    width: 46rem;
     z-index: 200;
    
 }
  .ContentH1 {
+     font-size: 2.5rem;
      margin-bottom: 1.5rem;
      margin-top: 1.5rem;
-     color: #ffd666;
+     color: #dfd6be;
  }
