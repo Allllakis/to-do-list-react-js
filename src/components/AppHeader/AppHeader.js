@@ -4,7 +4,7 @@ import  classes from './AppHeader.module.css';
 const AppHeader = () => {
     return (
         <div className={classes.Content}>
-            <h1 className={classes.ContentH1}>WORK DAY ORGANIZER</h1>
+            <h1>WORK DAY ORGANIZER</h1>
         </div>
        
     )

@@ -1,17 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
 .ListItem {
+  font-family: 'Acme', sans-serif;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #ffd666;
-  border: 2px solid #fa8c16;
+  background-color: #99c9ff;
+  border: 2px solid #dfd6be;
   list-style-type: none;
   padding-left: 10px;
   min-height: 2.5rem;
-  min-height: 30px;
-  
- 
+  font-size: 1rem;
+  color: #2b2627;
 }
 
 .Done {
@@ -20,22 +22,38 @@
 
 .Important {
   font-weight: bold;
-  color: brown;
+  color: #c82031;
 }
-.SpanStyle  {
+.SpanStyle {
   word-break: break-word;
   width: 335px;
- 
 }
 .Button {
   margin-right: 2px;
   font-weight: bold;
-  color: #f5222d;
-  background-color: #fa8c16;
+
+  color: #c82031;
+  background-color: #dfd6be;
+  border: none;
+  transition: all 0.5s ease-out;
+}
+
+.Button:hover,
+.Button:focus {
+  background-color: #2b2627;
+  transition: all 0.5s ease-out;
 }
 .Button2 {
   margin-right: 2px;
   font-weight: bold;
-  color: #fff1f0;
-  background-color: #f5222d;
+  color: #c82031;
+  background-color: #dfd6be;
+  border: none;
+  transition: all 0.5s ease-out;
+}
+
+.Button2:hover,
+.Button2:focus {
+  background-color: #2b2627;
+  transition: all 0.5s ease-out;
 }

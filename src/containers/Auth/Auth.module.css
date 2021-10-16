@@ -1,29 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
 .Auth {
   margin: 3rem auto;
-  width: 450px;
+  width: 46rem;
   text-align: center;
   background-color: #dfd6be;
   box-shadow: 0 14px 28px rgba(8, 8, 8, 0.25), 0 10px 10px rgba(8, 3, 3, 0.22);
   padding: 10px;
   box-sizing: border-box;
-  color: teal;
   z-index: 300;
 }
 
 .Form {
+  font-family: 'Acme', sans-serif;
   background-color: #99c9ff;
-  color: teal;
+  color: #dfd6be;
   z-index: 300;
 }
 .Button {
+  font-family: 'Acme', sans-serif;
   margin-bottom: 10px;
   background: transparent;
   background-color: #c82031;
   border-color: #c82031;
   z-index: 200;
+  transition: all 0.5s ease-out;
 }
 .Button:focus {
   background: transparent;
-
-  background-color: #874d00;
+  color: #c82031;
+  background-color: #2b2627;
+  transition: all 0.5s ease-out;
 }
+
+.Button:hover {
+  color: #c82031;
+  background-color: #dfd6be;
+  border-color: #dfd6be;
+  transition: all 0.5s ease-out;
+}
+
+@media (max-width: 736px) {
+  .Auth {
+     width: 25rem;
+  }
+  .Button {
+    width: 10rem;
+    height: 2.4rem;
+  }
+
+}
+
+/* @media (max-width: 414px) {
+  .Auth {
+     width: 25rem;
+  }
+  .Button {
+    width: 10rem;
+    height: 2.4rem;
+  }
+
+} */

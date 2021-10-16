@@ -1,10 +1,10 @@
 import React from "react";
 import classes from "./Logo.module.css";
-import { HeartOutlined } from "@ant-design/icons";
+import logotip from "../Img/logo.png";
 
 const logo = (props) => (
     <div className={classes.Logo}>
-     <HeartOutlined />
+     <img src={logotip} alt="to do list"/>
     </div>
 )
   

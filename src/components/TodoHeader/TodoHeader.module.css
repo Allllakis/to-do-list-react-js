@@ -1,49 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
 .Content {
-    display: flex;
-    flex-direction: row;
-    background-color: #99c9ff;
-    border: 2px solid #99c9ff;
-    
-    text-align: center;
-    align-items: center;
-    z-index: 200;
+  display: flex;
+  flex-direction: row;
+  background-color: #99c9ff;
+  border: 2px solid #99c9ff;
+  font-family: "Acme", sans-serif;
+  text-align: center;
+  align-items: center;
+  z-index: 200;
 }
 
 .Box1 {
-    flex-grow: 1;
-    text-align: center;
-    width: 100px;
-    
-   
-   
+  flex-grow: 1;
+  text-align: center;
+  width: 100px;
 }
 
 .Box2 {
-    flex-grow: 4;
-    text-align: center;
-    border-right: none;
-   
-    
-    
+  flex-grow: 4;
+  text-align: center;
+  border-right: none;
 }
 
 .Box3 {
-    flex-grow: 1;
-    width: 100px;
-    text-align: center;
-   
-    color:#ffd666;
-    
+  flex-grow: 1;
+  width: 100px;
+  text-align: center;
+  color: #dfd6be;
 }
 
 .h1 {
- margin: 0;
- color: #dfd6be;
- 
+  margin: 0;
+  color: #dfd6be;
+  transition: all 0.5s ease-out;
+}
+
+.h1:hover {
+  color: #2b2627;
+  transition: all 0.5s ease-out;
 }
 
 .open {
-    margin: 0;
-    color: #dfd6be;
-    cursor: pointer;
+  margin: 0;
+  color: #dfd6be;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.open:hover {
+    color: #c82031;
+    transition: all 0.5s ease-out;
 }

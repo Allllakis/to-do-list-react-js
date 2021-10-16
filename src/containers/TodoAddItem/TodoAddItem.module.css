@@ -9,13 +9,14 @@
   border-radius: 5px;
   outline-color: #2b2627;
   background-color: #2b2627;
-  color: #ffd666;
+  color: #dfd6be;
   width: 37rem;
   height: 2.5rem;
   margin-right: 0.8rem;
   margin-left: 0.8rem;
   box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5),
     1px 1px 5px rgba(255, 255, 255, 1);
+  transition: all 0.5s ease-out;
 }
 
 .OnInput:focus {
@@ -31,6 +32,7 @@
   color: #dfd6be;
   border-color: #fa1662;
   transition: all 0.5s ease-out;
+  cursor: pointer;
 }
 
 .Button:disabled {
@@ -38,4 +40,18 @@
   background: #2b2627;
   cursor: not-allowed;
   color: #fa1662;
+  transition: all 0.5s ease-out;
 }
+
+@media (max-width: 714px) {
+  .OnInput {
+     width: 20rem;
+     margin-right: 0.2rem;
+  margin-left: 0.4rem;
+  }
+  .Button {
+    margin: 0.2rem;
+  }
+
+}
+ 

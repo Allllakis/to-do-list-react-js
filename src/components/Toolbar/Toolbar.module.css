@@ -1,21 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
 .Toolbar {
-    height: 72px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #99c9ff;
-    color: #ffd666;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 40px;
-    box-sizing: border-box;
-    z-index: 300;
-    opacity: 0.8;
+  height: 72px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #99c9ff;
+  color: #ffd666;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  box-sizing: border-box;
+  z-index: 300;
+  opacity: 0.8;
 }
 
-.Toolbar nav {
-    height: 100%;
+.Logo {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  color: #2b2627;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+  transition: all 0.5s ease-out;
+}
+.Nav-item {
+  height: 100%;
+}
+
+@media (max-width: 940px) {
+    .Toolbar {
+        height: 94px;
+    }
+  .Logo {
+    display: none;
+  }
+ 
+}
+
+@media (max-width: 768px) {
+    .Toolbar {
+        height: 92px;
+    }
+ 
+}
+@media (max-width: 414px) {
+    .Toolbar {
+        padding: 0 0.5rem;
+        height: 72px;
+    }
+ 
 }

@@ -4,22 +4,27 @@
  display: flex;
  height: 100%;
  align-items: center;
+ text-align: center;
 }
 
 .NavigationItem a {
-    color: #dfd6be;
+    color: #2b2627;
     text-decoration: none;
-    height: 100%;
+    /* height: 100%; */
     padding: 16px 10px;
-    border-bottom: 4px solid transparent;
+    border: 4px solid transparent;
     box-sizing: border-box;
     display: block;
+    text-align: center;
+    transition: all 0.5s ease-out;
 }
 
 .NavigationItem a:hover,
 .NavigationItem a:active,
 .NavigationItem a.active {
+  color: #c82031;
   background-color:#2b2627;
-  border-bottom: 4px solid #c82031;
+  /* border-radius: 40%; */
+  /* border: 4px solid #dfd6be; */
   transition: all 0.5s ease-out;
 }
