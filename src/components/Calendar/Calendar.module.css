@@ -1,55 +1,72 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
 
 .Calendar {
-    font-size: 1.4rem;
-    font-family: 'Acme', sans-serif;
-    margin-top: 12px;
-    width: 46rem;
-    background-color: #ded9cd;;
-    border: 2px solid #dfd6be;
-    color: #2b2627;
-    font-weight: bold;
-    z-index: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-family: "Acme", sans-serif;
+  /* margin-top: 12px; */
+  width: 46rem;
+  height: 36rem;
+  /* background-color: #d28ce0; */
+  background-color: #d9aae2;
+  border: 2px solid #d9aae2;
+  opacity: 0.85;
+  color: #2b2627;
+  /* font-weight: bold; */
+  z-index: 200;
 }
 
 .Calendar p {
-    margin: 1rem auto;
+  margin: 1rem auto;
+  letter-spacing: 0,5em;
+  word-spacing: 6px;
+  color: azure;
 }
 .Calendar1 {
-    font-family: 'Acme', sans-serif;
-    width: 46rem;
-    background: #8cb4e2;
-    color: #2b2627;
-    border: none;
+  font-family: "Acme", sans-serif;
+  width: 38rem;
+  border-radius: 2rem;
+  box-shadow: 0 1px 4px rgb(119, 119, 119),
+-23px 0 20px -23px rgba(66, 65, 65, 0.8),
+23px 0 20px -23px rgba(77, 76, 76, 0.8),
+0 0 40px rgba(243, 235, 235, 0.1) inset;
+  /* background: #d9aae2;
+  color: #f5bed8; */
+  background: #f5bed8;
+  opacity: 1;
+  /* color: #d9aae2; */
+  /* color: #e760ba; */
+  color: azure;
+  border: none;
 }
 
+
 @media (max-width: 736px) {
-    .Calendar {
-       width: 25rem;
-       height: 15rem;
-       margin-left: auto;
-       margin-right: auto;
-       border: none;
-    }
-
-    .Calendar1 {
-        font-size: 0.8rem;
-        width: 25rem;
-        
-    }
-  
+  .Calendar {
+    width: 25rem;
+    height: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
   }
 
-  @media (max-width: 414px) {
-    .Calendar {
-        height: 20rem;
-       border: 2px solid #dfd6be;
-    }
-
-    .Calendar1 {
-        font-size: 0.8rem;
-        width: 25rem;
-        
-    }
-  
+  .Calendar1 {
+    font-size: 0.8rem;
+    width: 25rem;
   }
+}
+
+@media (max-width: 414px) {
+  .Calendar {
+    height: 20rem;
+    border: 2px solid #dfd6be;
+  }
+
+  .Calendar1 {
+    font-size: 0.8rem;
+    width: 25rem;
+  }
+}

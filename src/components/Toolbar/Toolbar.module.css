@@ -6,8 +6,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #99c9ff;
-  color: #ffd666;
+  /* background-color: #99c9ff; */
+  background-color: #d9aae2;
   font-weight: bold;
   display: flex;
   justify-content: space-between;
@@ -22,8 +22,8 @@
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
-  color: #2b2627;
-  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+  color: azure;
+  /* text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15); */
   transition: all 0.5s ease-out;
 }
 .Nav-item {

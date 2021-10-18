@@ -2,13 +2,15 @@
 
 .Content {
     font-family: 'Acme', sans-serif;
-    background-color: #2b2627;
-    border: 12px solid #99c9ff;
+    /* background-color: #f5bed8; */
+    background-color: #d9aae2;
+    border: 12px solid #d9aae2;
     width: 450px;
     text-align: center;
-    color: #dfd6be;
+    color: #e760ba;
     width: 46rem;
     z-index: 200;
+    opacity: 0.9;
     box-shadow: 0 14px 28px rgba(8, 8, 8, 0.25), 0 10px 10px rgba(8, 3, 3, 0.22);
     transition: all 0.5s ease-out;
    
@@ -17,20 +19,20 @@
      font-size: 3.5rem;
      margin-bottom: 1.5rem;
      margin-top: 1.5rem;
-     color: #dfd6be;
+     color: #e760ba;
      transition: all 0.5s ease-out;
  }
 
- .ContentH1:hover {
+ /* .ContentH1:hover {
 
      color: #2b2627;
      transition: all 0.5s ease-out;
- }
+ } */
 
- .Content:hover {
+ /* .Content:hover {
     background-color: #dfd6be;
     transition: all 0.5s ease-out;
- }
+ } */
 
  @media (max-width: 414px) {
     .Content {

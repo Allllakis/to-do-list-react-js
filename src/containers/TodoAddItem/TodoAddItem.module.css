@@ -1,5 +1,5 @@
 .AddItem {
-  background-color: #99c9ff;
+  background-color: #d9aae2;
   border: 1px solid #dfd6be;
   width: 100%;
   z-index: 200;
@@ -7,39 +7,40 @@
 
 .OnInput {
   border-radius: 5px;
-  outline-color: #2b2627;
-  background-color: #2b2627;
-  color: #dfd6be;
+  outline: none;
+  /* outline-color: none; */
+  background-color: #d9aae2;
+  color: #e760ba;
   width: 37rem;
   height: 2.5rem;
   margin-right: 0.8rem;
   margin-left: 0.8rem;
-  box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5),
-    1px 1px 5px rgba(255, 255, 255, 1);
+  /* box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5),
+    1px 1px 5px rgba(255, 255, 255, 1); */
   transition: all 0.5s ease-out;
 }
 
 .OnInput:focus {
   outline: none;
-  background-color: #525051;
-  border: 3px solid #dfd6be;
+  background-color: #f5bed8;
+  border: 3px solid #f5bed8;
   transition: all 0.5s ease-out;
 }
 
 .Button {
   margin: 1rem;
-  background: #fa1662;
-  color: #dfd6be;
-  border-color: #fa1662;
+  background: #f5bed8;
+  color: #e760ba;
+  border-color: #f5bed8;
   transition: all 0.5s ease-out;
   cursor: pointer;
 }
 
 .Button:disabled {
-  border-color: #2b2627;
-  background: #2b2627;
+  border-color: #e760ba;
+  background: #e760ba;
   cursor: not-allowed;
-  color: #fa1662;
+  color: azure;
   transition: all 0.5s ease-out;
 }
 

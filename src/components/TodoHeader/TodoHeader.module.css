@@ -3,7 +3,7 @@
 .Content {
   display: flex;
   flex-direction: row;
-  background-color: #99c9ff;
+  background-color: #d9aae2;
   border: 2px solid #99c9ff;
   font-family: "Acme", sans-serif;
   text-align: center;
@@ -32,23 +32,23 @@
 
 .h1 {
   margin: 0;
-  color: #dfd6be;
+  color: #e760ba;
   transition: all 0.5s ease-out;
 }
 
 .h1:hover {
-  color: #2b2627;
+  color: azure;
   transition: all 0.5s ease-out;
 }
 
 .open {
   margin: 0;
-  color: #dfd6be;
+  color: #e760ba;
   cursor: pointer;
   transition: all 0.5s ease-out;
 }
 
 .open:hover {
-    color: #c82031;
+    color: azure;
     transition: all 0.5s ease-out;
 }
