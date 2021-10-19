@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: row;
   background-color: #d9aae2;
-  border: 2px solid #99c9ff;
+  border: 2px solid #f5bed8;
   font-family: "Acme", sans-serif;
   text-align: center;
   align-items: center;
@@ -24,6 +24,7 @@
 }
 
 .Box3 {
+  text-transform: uppercase;
   flex-grow: 1;
   width: 100px;
   text-align: center;

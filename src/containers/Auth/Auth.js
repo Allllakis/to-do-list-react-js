@@ -93,6 +93,7 @@ class Auth extends Component {
 
      const form = formElementsArray.map((formElement) => (
       <Input
+      label="text"
          key={formElement.id}
          type="text"
          elementtype={formElement.config.elementtype}

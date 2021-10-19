@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
 
 .Auth {
   margin: 3rem auto;
-  width: 46rem;
-  text-align: center;
-  background-color: #dfd6be;
+  width: 40rem;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9aae2;
+  opacity: 0.85;
   box-shadow: 0 14px 28px rgba(8, 8, 8, 0.25), 0 10px 10px rgba(8, 3, 3, 0.22);
   padding: 10px;
   box-sizing: border-box;
@@ -12,43 +16,56 @@
 }
 
 .Form {
-  font-family: 'Acme', sans-serif;
-  background-color: #99c9ff;
-  color: #dfd6be;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30rem;
+  height: 20rem;
+  border-radius: 2rem;
+  box-shadow: 0 1px 4px rgb(119, 119, 119),
+    -23px 0 20px -23px rgba(66, 65, 65, 0.8),
+    23px 0 20px -23px rgba(77, 76, 76, 0.8),
+    0 0 40px rgba(243, 235, 235, 0.1) inset;
+  font-family: "Acme", sans-serif;
+  background-color: #f5bed8;
+  opacity: 1;
+  color: azure;
   z-index: 300;
 }
+
+
 .Button {
-  font-family: 'Acme', sans-serif;
-  margin-bottom: 10px;
-  background: transparent;
-  background-color: #c82031;
-  border-color: #c82031;
-  z-index: 200;
+  background: #e760ba;
+  color: azure;
+  border-color: #e760ba;
+  border-radius: 0.5rem;
   transition: all 0.5s ease-out;
+  cursor: pointer;
+  
 }
 .Button:focus {
   background: transparent;
-  color: #c82031;
-  background-color: #2b2627;
+  color: #e760ba;
+  background-color: azure;
   transition: all 0.5s ease-out;
 }
 
 .Button:hover {
-  color: #c82031;
-  background-color: #dfd6be;
-  border-color: #dfd6be;
+  color: #e760ba;
+  background-color: azure;
+  border-color: azure;
   transition: all 0.5s ease-out;
 }
 
 @media (max-width: 736px) {
   .Auth {
-     width: 25rem;
+    width: 25rem;
   }
   .Button {
     width: 10rem;
     height: 2.4rem;
   }
-
 }
 
 /* @media (max-width: 414px) {

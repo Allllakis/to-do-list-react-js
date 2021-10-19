@@ -195,6 +195,7 @@ const Organizer = (props) => {
         <AppHeader />
         {Object.keys(liststate.lists).map((key) => {
           const section = liststate.lists[key];
+          const lengthSection = section.items.length
 
           const doneCount = liststate.lists[key].items.filter((el) => el.done)
             .length;
@@ -210,6 +211,7 @@ const Organizer = (props) => {
                 onDeleted={onDeleted}
                 todo={todoCount}
                 done={doneCount}
+                lengthSection={lengthSection}
               />
               <TodoAddItem sectionKey={key} addTodoItem={addTodoItem} />
             </React.Fragment>

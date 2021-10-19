@@ -7,12 +7,13 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #99c9ff;
-  border: 2px solid #dfd6be;
+  background-color: #f5bed8;
+  border: 2px solid #d9aae2;
   list-style-type: none;
   padding-left: 10px;
   min-height: 2.5rem;
   font-size: 1rem;
+  /* color: #e760ba; */
   color: #2b2627;
 }
 
@@ -22,7 +23,7 @@
 
 .Important {
   font-weight: bold;
-  color: #c82031;
+  color: #e760ba;
 }
 .SpanStyle {
   word-break: break-word;
@@ -31,29 +32,31 @@
 .Button {
   margin-right: 2px;
   font-weight: bold;
-
-  color: #c82031;
-  background-color: #dfd6be;
+  color: #e760ba;
+  background-color: #d9aae2;
   border: none;
+  border-radius: 0.5rem;
   transition: all 0.5s ease-out;
 }
 
 .Button:hover,
 .Button:focus {
-  background-color: #2b2627;
+  background-color: azure;
+  color: #e760ba;
   transition: all 0.5s ease-out;
 }
 .Button2 {
   margin-right: 2px;
-  font-weight: bold;
-  color: #c82031;
-  background-color: #dfd6be;
+  color: #e760ba;
+  background-color: #d9aae2;
   border: none;
+  border-radius: 0.5rem;
   transition: all 0.5s ease-out;
 }
 
 .Button2:hover,
 .Button2:focus {
-  background-color: #2b2627;
+  background-color: azure;
+  color: #e760ba;
   transition: all 0.5s ease-out;
 }

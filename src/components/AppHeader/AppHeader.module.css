@@ -2,8 +2,8 @@
 
 .Content {
     font-family: 'Acme', sans-serif;
-    /* background-color: #f5bed8; */
-    background-color: #d9aae2;
+    background-color: #f5bed8;
+    /* background-color: #d9aae2; */
     border: 12px solid #d9aae2;
     width: 450px;
     text-align: center;
@@ -11,7 +11,7 @@
     width: 46rem;
     z-index: 200;
     opacity: 0.9;
-    box-shadow: 0 14px 28px rgba(8, 8, 8, 0.25), 0 10px 10px rgba(8, 3, 3, 0.22);
+    /* box-shadow: 0 14px 28px rgba(8, 8, 8, 0.25), 0 10px 10px rgba(8, 3, 3, 0.22); */
     transition: all 0.5s ease-out;
    
 }

@@ -13,9 +13,14 @@ const TodoList = ({
   onDeleted,
   todo,
   done,
+  lengthSection,
 }) => {
+
   const [hideList, setHideList] = useState(true);
-  const onListHide = () => {
+ 
+
+   
+  const triggerToggle = () => {
     setHideList(!hideList)
   }
 
@@ -34,7 +39,7 @@ const TodoList = ({
   });
   return (
     <div className={cx("List")}>
-      <TodoHeader name={section.name} todo={todo} done={done} hide={onListHide}/>
+      <TodoHeader name={section.name} todo={todo} done={done}  lengthSection={lengthSection} hide={triggerToggle}/>
       <ul className={cx("Todolist", hideList && "TodolistHide", !hideList && "TodoList")}>{elements}</ul>
     </div>
   );

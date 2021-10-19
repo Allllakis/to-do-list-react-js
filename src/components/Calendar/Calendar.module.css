@@ -21,7 +21,7 @@
 
 .Calendar p {
   margin: 1rem auto;
-  letter-spacing: 0,5em;
+  letter-spacing: 0, 5em;
   word-spacing: 6px;
   color: azure;
 }
@@ -30,19 +30,14 @@
   width: 38rem;
   border-radius: 2rem;
   box-shadow: 0 1px 4px rgb(119, 119, 119),
--23px 0 20px -23px rgba(66, 65, 65, 0.8),
-23px 0 20px -23px rgba(77, 76, 76, 0.8),
-0 0 40px rgba(243, 235, 235, 0.1) inset;
-  /* background: #d9aae2;
-  color: #f5bed8; */
+    -23px 0 20px -23px rgba(66, 65, 65, 0.8),
+    23px 0 20px -23px rgba(77, 76, 76, 0.8),
+    0 0 40px rgba(243, 235, 235, 0.1) inset;
   background: #f5bed8;
   opacity: 1;
-  /* color: #d9aae2; */
-  /* color: #e760ba; */
   color: azure;
   border: none;
 }
-
 
 @media (max-width: 736px) {
   .Calendar {

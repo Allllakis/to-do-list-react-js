@@ -1,6 +1,6 @@
 .AddItem {
   background-color: #d9aae2;
-  border: 1px solid #dfd6be;
+  border: 1px solid #d9aae2;
   width: 100%;
   z-index: 200;
 }
@@ -10,6 +10,7 @@
   outline: none;
   /* outline-color: none; */
   background-color: #d9aae2;
+  border: 3px solid #f5bed8;
   color: #e760ba;
   width: 37rem;
   height: 2.5rem;
@@ -32,6 +33,7 @@
   background: #f5bed8;
   color: #e760ba;
   border-color: #f5bed8;
+  border-radius: 0.5rem;
   transition: all 0.5s ease-out;
   cursor: pointer;
 }

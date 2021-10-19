@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import classes from "./TodoHeader.module.css";
 
-const TodoHeader = ({ name, todo, done, hide }) => {
+const TodoHeader = ({ name, todo, done, hide, lengthSection }) => {
+  const [toggleText, setToggleText] = useState(false);
+
+  const onToggle = () => {
+    hide();
+    setToggleText(!toggleText);
+  };
+
   return (
     <div className={classes.Content}>
       <div className={classes.Box1}>
@@ -10,9 +17,10 @@ const TodoHeader = ({ name, todo, done, hide }) => {
       <div className={classes.Box2}>
         <h1 className={classes.h1}>{`${todo} TO DO ${done} DONE`}</h1>
       </div>
-      <div className={classes.Box3}
-      onClick={hide}>
-        <h1 className={classes.open}>OPEN</h1>
+      <div className={classes.Box3} onClick={onToggle}>
+        <h1 className={classes.open}>
+          {toggleText && lengthSection !== 0 ? "Clouse" : "Open"}
+        </h1>
       </div>
     </div>
   );
