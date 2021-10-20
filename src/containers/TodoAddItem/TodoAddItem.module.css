@@ -1,14 +1,14 @@
 .AddItem {
   background-color: #d9aae2;
-  border: 1px solid #d9aae2;
+  border: 0.5rem solid #d9aae2;
   width: 100%;
   z-index: 200;
+  margin-bottom: 1rem;
 }
 
 .OnInput {
   border-radius: 5px;
   outline: none;
-  /* outline-color: none; */
   background-color: #d9aae2;
   border: 3px solid #f5bed8;
   color: #e760ba;
@@ -46,15 +46,24 @@
   transition: all 0.5s ease-out;
 }
 
-@media (max-width: 714px) {
+@media (max-width: 768px) {
   .OnInput {
-     width: 20rem;
-     margin-right: 0.2rem;
-  margin-left: 0.4rem;
+    width: 40rem;
+    margin-right: 0.4rem;
+    margin-left: 0.4rem;
   }
   .Button {
     margin: 0.2rem;
   }
-
 }
- 
+
+@media (max-width: 414px) {
+  .OnInput {
+    width: 19rem ;
+    /* margin-right: 0.4rem;
+    margin-left: 0.4rem; */
+  }
+  .Button {
+    margin: 0.2rem;
+  }
+}

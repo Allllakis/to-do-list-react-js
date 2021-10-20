@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
 
 .Auth {
-  margin: 3rem auto;
+  /* margin: 3rem auto; */
+  margin: 3rem 0;
   width: 40rem;
   height: 30rem;
   display: flex;
@@ -34,7 +35,6 @@
   z-index: 300;
 }
 
-
 .Button {
   background: #e760ba;
   color: azure;
@@ -42,7 +42,6 @@
   border-radius: 0.5rem;
   transition: all 0.5s ease-out;
   cursor: pointer;
-  
 }
 .Button:focus {
   background: transparent;
@@ -58,9 +57,19 @@
   transition: all 0.5s ease-out;
 }
 
-@media (max-width: 736px) {
+@media (max-width: 768px) {
   .Auth {
-    width: 25rem;
+    width: 40rem;
+    height: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+  }
+
+  .Form {
+    font-size: 1.2rem;
+    width: 30rem;
+    height: 23rem;
   }
   .Button {
     width: 10rem;
@@ -68,13 +77,31 @@
   }
 }
 
-/* @media (max-width: 414px) {
+/* @media (max-width: 768px) {
   .Auth {
-     width: 25rem;
-  }
-  .Button {
-    width: 10rem;
-    height: 2.4rem;
+    min-width: 25rem;
+    min-height: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
   }
 
+  .Form {
+    font-size: 0.8rem;
+    min-width: 25rem;
+  }
 } */
+
+@media (max-width: 414px) {
+  .Auth {
+    width: 25rem;
+    height: 21rem;
+    font-size: 1rem;
+  }
+
+  .Form {
+    font-size: 0.8rem;
+    width: 20rem;
+    height: 16rem;
+  }
+}

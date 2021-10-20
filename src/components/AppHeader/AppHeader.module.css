@@ -3,7 +3,6 @@
 .Content {
     font-family: 'Acme', sans-serif;
     background-color: #f5bed8;
-    /* background-color: #d9aae2; */
     border: 12px solid #d9aae2;
     width: 450px;
     text-align: center;
@@ -23,17 +22,7 @@
      transition: all 0.5s ease-out;
  }
 
- /* .ContentH1:hover {
-
-     color: #2b2627;
-     transition: all 0.5s ease-out;
- } */
-
- /* .Content:hover {
-    background-color: #dfd6be;
-    transition: all 0.5s ease-out;
- } */
-
+ 
  @media (max-width: 414px) {
     .Content {
        width: 25rem;

@@ -1,16 +1,23 @@
 .DataOrganizer {
   /* padding: 5rem 0 10rem 0; */
+  background-color: #d9aae2;
   width: 46rem;
   display: flex;
   flex-direction: column;
   z-index: 2;
   box-shadow: 0 14px 28px rgba(8, 8, 8, 0.25), 0 10px 10px rgba(8, 3, 3, 0.22);
-  
 }
 
-@media (max-width: 714px) {
+@media (max-width: 768px) {
   .DataOrganizer {
-     width: 25rem;
+    width: 46rem;
   }
+}
 
+@media (max-width: 414px) {
+  .DataOrganizer {
+    width: 25rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
 }

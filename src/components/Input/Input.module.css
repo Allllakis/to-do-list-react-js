@@ -1,5 +1,5 @@
 .Input {
-  color: black;
+  color: #2b2627;
   width: 100%;
   padding: 1.5rem;
   box-sizing: border-box;
@@ -16,8 +16,9 @@
   outline: none;
   outline-color: none;
   border-style: none;
+  border-radius: 0.5rem;
   background-color: #d9aae2;
-  padding: 6px 10px;
+  padding: 0.5rem 0.8rem;
   display: block;
   height: 3rem;
   width: 100%;
@@ -29,4 +30,17 @@
   background-color: azure;
   border: 3px solid azure;
   transition: all 0.5s ease-out;
+}
+
+@media (max-width: 414px) {
+  .Input {
+    padding: 0.6rem;
+  }
+
+  .InputElement {
+    height: 2.8rem;
+  }
+  button {
+    margin: 0.3rem;
+  }
 }

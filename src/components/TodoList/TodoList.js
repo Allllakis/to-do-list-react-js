@@ -17,8 +17,6 @@ const TodoList = ({
 }) => {
 
   const [hideList, setHideList] = useState(true);
- 
-
    
   const triggerToggle = () => {
     setHideList(!hideList)
