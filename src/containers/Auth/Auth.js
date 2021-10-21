@@ -75,6 +75,7 @@ class Auth extends Component {
       formElementsArray.push({
         id: key,
         config: this.state.controls[key],
+
       });
     }
 
@@ -93,7 +94,7 @@ class Auth extends Component {
 
      const form = formElementsArray.map((formElement) => (
       <Input
-      label="text"
+      label={formElement.id}
          key={formElement.id}
          type="text"
          elementtype={formElement.config.elementtype}

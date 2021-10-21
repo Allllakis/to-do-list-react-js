@@ -3,16 +3,27 @@
   width: 100%;
   padding: 1.5rem;
   box-sizing: border-box;
+  border-image: none;
+  border-width: 0px;
+  border-image: none;
+  border-color: none;
+  outline: none;
+  outline-color: none;
+  border-style: none;
 }
 
 .Label {
   color: #e760ba;
   outline: none;
   outline-color: none;
+  border-style: none;
   font-weight: bold;
 }
 
 .InputElement {
+  border-width: 0px;
+  border-image: none;
+  border-color: none;
   outline: none;
   outline-color: none;
   border-style: none;
@@ -26,7 +37,11 @@
 }
 
 .InputElement:focus {
+  border: 0 !important;
+  outline: none !important;
   outline: none;
+  outline-color: none;
+  border-style: none;
   background-color: azure;
   border: 3px solid azure;
   transition: all 0.5s ease-out;

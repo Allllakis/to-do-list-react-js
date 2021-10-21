@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
 
 .Auth {
-  /* margin: 3rem auto; */
+  border-color: none;
   margin: 3rem 0;
   width: 40rem;
   height: 30rem;
@@ -17,6 +17,7 @@
 }
 
 .Form {
+  border-color: none;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,21 +77,6 @@
     height: 2.4rem;
   }
 }
-
-/* @media (max-width: 768px) {
-  .Auth {
-    min-width: 25rem;
-    min-height: 15rem;
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
-  }
-
-  .Form {
-    font-size: 0.8rem;
-    min-width: 25rem;
-  }
-} */
 
 @media (max-width: 414px) {
   .Auth {
